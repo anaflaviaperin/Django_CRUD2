@@ -2,12 +2,12 @@
 
 Este projeto é um sistema CRUD simples desenvolvido em Django para gerenciar informações de autores, livros e categorias. 
 O sistema permite adicionar, editar, visualizar e excluir entradas de livros, e apenas visualizar entradas de autores e categorias.
-O projeto possui configurações que isolam o banco de dados e implementa conceitos de herança de views genéricas.
+Além de possuir configurações que isolam o banco de dados e implementa conceitos de herança de views genéricas.
 
 ## Estrutura do Projeto
 
 - categoria: {nome}
-- autor: {nome, data_nascimento}
+- autor: {nome, datanascimento}
 - livro: {titulo, autor, categoria, numeropaginas}
 
 ## Requisitos
